@@ -61,7 +61,7 @@ describe('Pflegia Login Tests', () => {
         if(cy.get('a[href="/fast-track"]').should('be.visible')){
             expect(true).to.be.true
         }
-        else if(cy.get('ul > li:nth-child(1) > a > font > font').should(be.visit)){
+        else if(cy.get('ul > li:nth-child(1) > a > font > font').should(be.visible)){
             expect(true).to.be.true
         }
         else{
