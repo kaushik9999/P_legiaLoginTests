@@ -1,7 +1,6 @@
 {
     "no_registered_user_found": "Es existiert kein Benutzer mit dieser E-Mail-Adresse. Hier registrieren",
     "password_error":"Das Passwort ist falsch. Passwort zurücksetzen",
-    "email": "hello@cypress.io",
-    "body": "Fixtures are a great way to mock data for responses to routes"
+    
   }
   
