@@ -1,0 +1,9 @@
+{
+    "valid_email": "leontest+23519805@byom.de",
+    "valid_password": "test1234",
+    "invalid_userName":"anything@a.com",
+    "invalid_password":"anything",
+    "noEmailSignString":"Noemail"
+    
+  }
+  
