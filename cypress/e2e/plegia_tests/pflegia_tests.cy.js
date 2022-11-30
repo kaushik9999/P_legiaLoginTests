@@ -52,9 +52,7 @@ describe('Pflegia Login Tests', () => {
         landing_page.getUserName().clear()
         landing_page.getPassword().clear()
         landing_page_flow.login(data.noEmailSignString, data.valid_password);
-        cy.on('window:alert',(t)=>{
-            expect(t).to.contains('Your full name');
-         })
+        
     })
     it('verify successful login', () => {
         landing_page.getUserName().clear()
