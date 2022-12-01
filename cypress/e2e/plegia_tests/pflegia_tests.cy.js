@@ -28,7 +28,7 @@ describe('Pflegia Login Tests', () => {
         cy.wait(1000)
         cy.get('small[class="mx-2 mt-2 block text-xs font-medium text-error"]').should('have.text',errorCodeData.no_registered_user_found)
     })
-    it('verify un-successful both fields blank', () => {
+    it('verify un-successful login both fields blank', () => {
         landing_page.getUserName().clear()
         landing_page.getPassword().clear()
         landing_page.getSignInButton().click()
@@ -48,7 +48,7 @@ describe('Pflegia Login Tests', () => {
         cy.get('small[class="mx-2 mt-2 block text-xs font-medium text-error"]').should('have.text',errorCodeData.password_error)
         
     })
-    it('verify un-unsuccessful username field @ sign validation', () => {
+    it('verify un-unsuccessful login username field @ sign validation', () => {
         landing_page.getUserName().clear()
         landing_page.getPassword().clear()
         landing_page_flow.login(data.noEmailSignString, data.valid_password);
